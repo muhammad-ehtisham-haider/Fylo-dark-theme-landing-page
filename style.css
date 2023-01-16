@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(216, 16%, 30%);
+ 
+
+}
+.all{
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 105%;
+    background-size: contain;
+    padding-bottom: 143px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px; 
+}
+.nav ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.navbar ul li a:hover{
+    cursor: pointer;
+    color: rgb(231, 231, 231);
+    text-decoration: underline;
+}
+
+/* intro  */
+.intro{
+    display: flex;
+    justify-content: center;
+    
+}
+.intro img{
+    margin-top: -20px;
+    width: 500px;
+}
+
+/* files 
+ */
+ .file{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .files{
+    color: white;
+    width: 500px;
+    margin-top: 30px;
+    text-align: center;
+   
+ }
+ .files .para-1{
+    margin-top: 10px;
+    padding: 20px 30px;
+ }
+ .btn-1 button{
+    color: white;
+    background-color:  hsl(198, 60%, 50%);
+
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+ }
+ .btn-1 button:hover{
+    cursor: pointer;
+    background-color: hsl(176, 68%, 64%);
+ }
+
+ /* section  */
+.sections{
+    margin-top: -20px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+ .section{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ 
+  
+ }
+ .section .up{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 1000px;
+    color: white;
+ }
+ .left , .right{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+ .para-2 p{
+    color: rgb(241, 241, 241);
+    margin-top: 10px;
+ }
+ .heding-3 h3{
+    margin-top: 20px;
+ }
+
+
+
+ /* pro  */
+ .pro{
+
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    padding: 100px 40px;
+   
+ }
+ .pros{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+ }
+ .img img{
+    width: 450px;
+ }
+ .text{
+    margin-top: 60px;
+    color: white;
+    width: 450px;
+ }
+ .link{
+    margin-top: 20px;
+   
+ }
+ .link a{
+    color:hsl(176, 68%, 64%) ;
+ }
+.link a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+ /* review  */
+ .review{
+    background-image: url(images/bg-quotes.png);
+    background-position: 56px 41px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 100px; */
+    padding: 40px 60px;
+    background-color: hsl(218, 28%, 13%);
+ 
+ }
+ .one{
+    background-color:  hsl(216, 16%, 30%);
+    width: 380px;
+    padding: 20px 42px;
+    margin-top: 35px;
+ }
+ .profile{
+    display: flex;
+ }
+ .pic{
+ margin-top: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .pic img{
+    width: 40px;
+    border-radius: 50%;
+ }
+ .name{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+ }
+ .para-4 p{
+    font-size: 10px;
+ }
+
+
+ /* mail  */
+
+ .mail{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    position: relative;
+ }
+ .mails{
+    position: absolute;
+    width: 700px;
+    background-color:  hsl(216, 16%, 30%);
+    text-align: center;
+    padding: 20px 40px;
+    margin-top: -20px;
+ }
+ .heding-2 h2{
+    color: white;
+ }
+ .low{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+ }
+.enter input{
+    width: 350px;
+    padding: 10px 20px;
+    border-radius:20px ;
+    border: 0;
+}
+
+/* fooetr  */
+footer{
+    background-color: hsl(220, 43%, 1%);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px;
+}
+footer .two{
+    width: 300px;
+}
+.two img{
+    width: 100px;
+}
+.lovo{
+    display: flex;
+    justify-content: space-between;
+}
+.lovo img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.lovo .para-2{
+    margin-left: 10px;
+}
+.three{
+    margin-top: 30px;
+}
+.three ul li {
+    display: flex;
+    margin-top: 10px;
+    color: white;
+}
+li img{
+    margin-right: 20px;
+}
+
+.four{
+    margin-top: 30px;
+}
+.four ul li {
+ list-style: none;
+ color: white;
+}
+.four ul li:hover{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.five{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.five .icon{
+    margin-right: 10px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+}
+.five .icon:hover{
+    color: hsl(176, 68%, 64%);
+    cursor: pointer;
+    border: 1px solid hsl(176, 68%, 64%);
+}
+#warn{
+    color: red;
+    margin-top: 10px;
+    margin-right: 100px;
+}
